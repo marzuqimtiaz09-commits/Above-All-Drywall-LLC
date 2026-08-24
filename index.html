@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Above All Drywall | Premium Drywall Installation & Repair in Ozark & Wiregrass, AL</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gold: '#D97706',        // Vibrant Amber/Gold
+                            goldHover: '#B45309',
+                            goldLight: '#FEF3C7',
+                            navy: '#0F172A',        // Slate Navy for high contrast text
+                            blue: '#1E40AF',        // Rich Professional Accent Blue
+                            blueLight: '#EFF6FF',
+                            bgLight: '#F8FAFC',      // Crisp light canvas background
+                            cardBg: '#FFFFFF',
+                            border: '#E2E8F0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Space Grotesk', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #F8FAFC;
+            color: #1E293B;
+            overflow-x: hidden;
+        }
+        .heading-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #D97706 0%, #B45309 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+        }
+        .gold-gradient-bg:hover {
+            background: linear-gradient(135deg, #D97706 0%, #B45309 100%);
+        }
+        .blue-gradient-bg {
+            background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+        }
+        .backdrop-blur-nav {
+            backdrop-filter: blur(12px);
+            background-color: rgba(255, 255, 255, 0.92);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F1F5F9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #CBD5E1;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #D97706;
+        }
+        .card-shadow {
+            box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.08);
+        }
+        .card-shadow-lg {
+            box-shadow: 0 20px 40px -15px rgba(217, 119, 6, 0.18);
+        }
+        .img-zoom-container {
+            overflow: hidden;
+        }
+        .img-zoom-container img {
+            transition: transform 0.5s ease;
+        }
+        .img-zoom-container:hover img {
+            transform: scale(1.04);
+        }
+    </style>
+</head>
+<body class="antialiased bg-slate-50 text-slate-800">
+
+    <!-- STICKY HEADER -->
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-slate-200/80 backdrop-blur-nav shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-xl overflow-hidden border-2 border-amber-500/30 p-0.5 bg-white shadow-md group-hover:scale-105 transition-transform duration-300">
+                        <img src="https://raw.githubusercontent.com/marzuqimtiaz09-commits/Above-All-Drywall-LLC/refs/heads/main/Above%20All%20Drywall%20LLC%20logo.jpg" 
+                             alt="Above All Drywall Logo" 
+                             class="w-full h-full object-cover rounded-lg"
+                             onerror="this.src='https://placehold.co/100x100/1e40af/ffffff?text=AAD'">
+                    </div>
+                    <div>
+                        <span class="text-xl font-extrabold tracking-tight text-slate-900 block heading-font group-hover:text-amber-600 transition-colors">
+                            ABOVE ALL <span class="gold-gradient-text">DRYWALL</span>
+                        </span>
+                        <span class="text-xs text-slate-500 tracking-wider uppercase block font-semibold">Ozark & Wiregrass, AL</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center space-x-7 text-sm font-semibold">
+                    <a href="#home" class="text-slate-700 hover:text-amber-600 transition-colors py-1">Home</a>
+                    <a href="#about" class="text-slate-700 hover:text-amber-600 transition-colors py-1">About</a>
+                    <a href="#services" class="text-slate-700 hover:text-amber-600 transition-colors py-1">Services</a>
+                    <a href="#why-us" class="text-slate-700 hover:text-amber-600 transition-colors py-1">Why Us</a>
+                    <a href="#reviews" class="text-slate-700 hover:text-amber-600 transition-colors py-1">Reviews</a>
+                    <a href="#process" class="text-slate-700 hover:text-amber-600 transition-colors py-1">Process</a>
+                    <a href="#contact" class="text-slate-700 hover:text-amber-600 transition-colors py-1">Contact</a>
+                </nav>
+
+                <!-- Action Buttons -->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <a href="tel:3345454051" class="flex items-center gap-2 text-sm font-bold text-slate-800 hover:text-amber-600 transition-colors px-3 py-2 bg-amber-50 hover:bg-amber-100/80 rounded-xl border border-amber-200">
+                        <i class="fa-solid fa-phone text-amber-600"></i>
+                        <span>(334) 545-4051</span>
+                    </a>
+                    <button onclick="openModal('estimate')" class="gold-gradient-bg text-white font-extrabold px-5 py-2.5 rounded-xl shadow-md hover:shadow-amber-500/20 transition-all text-sm tracking-wide transform hover:-translate-y-0.5 active:translate-y-0">
+                        GET A FREE ESTIMATE
+                    </button>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobileMenuBtn" aria-label="Toggle mobile menu" class="md:hidden text-slate-700 hover:text-amber-600 p-2 focus:outline-none">
+                    <i id="menuIcon" class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 shadow-xl">
+            <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:text-amber-600 hover:bg-amber-50">Home</a>
+            <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:text-amber-600 hover:bg-amber-50">About</a>
+            <a href="#services" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:text-amber-600 hover:bg-amber-50">Services</a>
+            <a href="#why-us" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:text-amber-600 hover:bg-amber-50">Why Us</a>
+            <a href="#reviews" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:text-amber-600 hover:bg-amber-50">Reviews</a>
+            <a href="#process" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:text-amber-600 hover:bg-amber-50">Process</a>
+            <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:text-amber-600 hover:bg-amber-50">Contact</a>
+            
+            <div class="pt-4 border-t border-slate-200 space-y-3">
+                <a href="tel:3345454051" class="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-amber-50 border border-amber-200 text-slate-900 font-bold">
+                    <i class="fa-solid fa-phone text-amber-600"></i>
+                    <span>CALL (334) 545-4051</span>
+                </a>
+                <button onclick="openModal('estimate')" class="w-full gold-gradient-bg text-white font-extrabold py-3 rounded-xl text-center shadow-md">
+                    GET A FREE ESTIMATE
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="relative pt-28 pb-16 md:pt-36 md:pb-28 overflow-hidden min-h-screen flex items-center bg-gradient-to-b from-amber-50/70 via-slate-50 to-white">
+        <!-- Ambient Decorative Color Swirls -->
+        <div class="absolute top-12 left-1/4 w-96 h-96 bg-amber-200/40 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/3 right-10 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 space-y-6">
+                    
+                    <!-- Location Badge -->
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/80 text-amber-900 text-xs sm:text-sm font-bold tracking-wide border border-amber-300/80 shadow-sm">
+                        <span class="w-2.5 h-2.5 rounded-full bg-amber-600 animate-ping"></span>
+                        <i class="fa-solid fa-location-dot text-amber-600"></i>
+                        <span>Serving Ozark & the Wiregrass Area</span>
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight heading-font">
+                        Professional Drywall. <br>
+                        <span class="gold-gradient-text">Finished Above All.</span>
+                    </h1>
+
+                    <!-- Body Subtitle -->
+                    <p class="text-lg sm:text-xl text-slate-700 max-w-2xl leading-relaxed font-medium">
+                        From new construction to repairs and finishing, Above All Drywall delivers clean, professional drywall work throughout the Wiregrass area.
+                    </p>
+
+                    <!-- Feature Highlights -->
+                    <div class="flex flex-wrap gap-3 pt-1 text-sm text-slate-800 font-semibold">
+                        <div class="flex items-center gap-2 bg-white px-4 py-2.5 rounded-xl border border-slate-200 shadow-sm">
+                            <i class="fa-solid fa-circle-check text-amber-500"></i>
+                            <span>Quality Craftsmanship</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-4 py-2.5 rounded-xl border border-slate-200 shadow-sm">
+                            <i class="fa-solid fa-circle-check text-amber-500"></i>
+                            <span>Clean Finishes</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-4 py-2.5 rounded-xl border border-slate-200 shadow-sm">
+                            <i class="fa-solid fa-circle-check text-amber-500"></i>
+                            <span>Reliable Service</span>
+                        </div>
+                    </div>
+
+                    <!-- CTAs -->
+                    <div class="pt-3 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                        <button onclick="openModal('estimate')" class="gold-gradient-bg text-white text-base font-extrabold px-8 py-4 rounded-xl shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 transition-all text-center group">
+                            <span>GET A FREE ESTIMATE</span>
+                            <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                        <a href="tel:3345454051" class="bg-white hover:bg-slate-100 text-slate-900 text-base font-extrabold px-8 py-4 rounded-xl border-2 border-slate-200 shadow-md transition-all text-center flex items-center justify-center gap-3 group">
+                            <i class="fa-solid fa-phone text-amber-600 group-hover:scale-110 transition-transform"></i>
+                            <span>CALL (334) 545-4051</span>
+                        </a>
+                    </div>
+
+                    <!-- Hero Work Preview Banner -->
+                    <div class="pt-4 flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-xl overflow-hidden border-2 border-amber-400 shadow-md shrink-0">
+                            <img src="https://raw.githubusercontent.com/marzuqimtiaz09-commits/Above-All-Drywall-LLC/refs/heads/main/Above%20All%20Drywall%20LLC%20image%20.jpg" alt="Drywall Work Preview" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-1 text-amber-500 text-xs">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="text-slate-800 font-bold ml-1">5.0 Star Rated Quality</span>
+                            </div>
+                            <p class="text-xs text-slate-600 font-medium mt-0.5">Craftsman smooth finishes & precise seam work</p>
+                        </div>
+                    </div>
+
+                    <!-- Counties Strip -->
+                    <div class="pt-4 border-t border-slate-200">
+                        <p class="text-xs uppercase tracking-widest text-slate-500 font-bold mb-2">Service Counties:</p>
+                        <p class="text-xs sm:text-sm text-slate-700 font-bold flex flex-wrap gap-x-3 gap-y-1">
+                            <span class="hover:text-amber-600 transition-colors">Barbour County</span> •
+                            <span class="hover:text-amber-600 transition-colors">Dale County</span> •
+                            <span class="hover:text-amber-600 transition-colors">Coffee County</span> •
+                            <span class="hover:text-amber-600 transition-colors">Henry County</span> •
+                            <span class="hover:text-amber-600 transition-colors">Houston County</span>
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Hero Visual Card / Quick Estimate Box -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border-2 border-amber-300/80 card-shadow-lg relative overflow-hidden">
+                        
+                        <div class="flex items-center gap-4 mb-6 pb-4 border-b border-slate-100">
+                            <img src="https://raw.githubusercontent.com/marzuqimtiaz09-commits/Above-All-Drywall-LLC/refs/heads/main/Above%20All%20Drywall%20LLC%20logo.jpg" alt="Above All Drywall" class="w-14 h-14 rounded-xl object-cover border-2 border-amber-400 shadow-sm">
+                            <div>
+                                <h3 class="text-lg font-bold text-slate-900 heading-font">Need Drywall Fast?</h3>
+                                <p class="text-xs text-amber-700 font-bold">Fast Response • Free Project Quotes</p>
+                            </div>
+                        </div>
+
+                        <!-- Quick Form -->
+                        <form id="heroQuickForm" onsubmit="handleQuickSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Your Name *</label>
+                                <input type="text" required placeholder="John Doe" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number *</label>
+                                <input type="tel" required placeholder="(334) 000-0000" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Project Type *</label>
+                                <select required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
+                                    <option value="" disabled selected>Select Service...</option>
+                                    <option value="Drywall Installation">Drywall Installation</option>
+                                    <option value="Drywall Repair">Drywall Repair</option>
+                                    <option value="Drywall Finishing">Drywall Finishing</option>
+                                    <option value="Remodeling & Renovation">Remodeling & Renovation</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full gold-gradient-bg text-white font-extrabold py-3.5 rounded-xl text-sm tracking-wide shadow-md hover:brightness-105 transition-all flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>REQUEST FREE QUOTE</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <section class="bg-white border-y border-slate-200 py-10 relative z-20 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                
+                <!-- Trust Item 1 -->
+                <div class="p-4 rounded-2xl bg-amber-50/60 border border-amber-200/60 hover:bg-amber-100/50 transition-colors">
+                    <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-amber-500 text-white flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider heading-font">LOCAL & RELIABLE</h4>
+                    <p class="text-xs text-slate-600 font-medium mt-1">Serving homeowners & businesses across the Wiregrass.</p>
+                </div>
+
+                <!-- Trust Item 2 -->
+                <div class="p-4 rounded-2xl bg-blue-50/60 border border-blue-200/60 hover:bg-blue-100/50 transition-colors">
+                    <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-ruler-combined"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider heading-font">QUALITY CRAFTSMANSHIP</h4>
+                    <p class="text-xs text-slate-600 font-medium mt-1">Attention to detail from installation through finishing.</p>
+                </div>
+
+                <!-- Trust Item 3 -->
+                <div class="p-4 rounded-2xl bg-emerald-50/60 border border-emerald-200/60 hover:bg-emerald-100/50 transition-colors">
+                    <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-emerald-600 text-white flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider heading-font">FREE ESTIMATES</h4>
+                    <p class="text-xs text-slate-600 font-medium mt-1">Let's talk about your project and find the right solution.</p>
+                </div>
+
+                <!-- Trust Item 4 -->
+                <div class="p-4 rounded-2xl bg-amber-50/60 border border-amber-200/60 hover:bg-amber-100/50 transition-colors">
+                    <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-amber-500 text-white flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider heading-font">5.0★ CUSTOMER RATING</h4>
+                    <p class="text-xs text-slate-600 font-medium mt-1">Trusted by local customers for professional drywall work.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 md:py-28 relative bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- About Image Column -->
+                <div class="lg:col-span-6 relative">
+                    <div class="relative z-10 rounded-3xl overflow-hidden border-4 border-white card-shadow-lg img-zoom-container">
+                        <img src="https://raw.githubusercontent.com/marzuqimtiaz09-commits/Above-All-Drywall-LLC/refs/heads/main/Above%20All%20Drywall%20LLC%20image2%20.jpg" 
+                             alt="Professional Drywall Finishing Work" 
+                             class="w-full h-[460px] object-cover"
+                             onerror="this.src='https://placehold.co/600x460/f59e0b/ffffff?text=Drywall+Work'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6">
+                            <span class="inline-block px-3.5 py-1.5 rounded-lg bg-amber-500 text-white font-bold text-xs uppercase tracking-wider mb-2 shadow-sm">Wiregrass Premier Contractor</span>
+                            <p class="text-white text-base font-semibold drop-shadow">Precision seamless edges and smooth drywall finishing</p>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge -->
+                    <div class="absolute -bottom-6 -right-4 z-20 hidden sm:flex items-center gap-4 bg-white border-2 border-amber-300 p-4 rounded-2xl shadow-xl max-w-xs">
+                        <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-white font-extrabold text-2xl heading-font shadow-md">
+                            5.0
+                        </div>
+                        <div>
+                            <div class="flex text-amber-500 text-xs mb-1">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-xs text-slate-800 font-bold">Excellence in Every Sheet & Seam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Content Column -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-amber-600 text-xs font-bold uppercase tracking-widest bg-amber-100 px-3 py-1 rounded-full border border-amber-200">
+                        <i class="fa-solid fa-paint-roller"></i>
+                        <span>ABOUT ABOVE ALL DRYWALL</span>
+                    </div>
+
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 heading-font leading-tight">
+                        Built to Look Good. <br>
+                        <span class="gold-gradient-text">Built to Last.</span>
+                    </h2>
+
+                    <p class="text-slate-700 leading-relaxed text-base font-medium">
+                        At Above All Drywall, we believe great drywall work is about more than simply putting material on a wall. It's about the details.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-4 py-2">
+                        <div class="flex items-center gap-3 bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center text-xs font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <span class="text-sm font-bold text-slate-800">Straight lines</span>
+                        </div>
+                        <div class="flex items-center gap-3 bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center text-xs font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <span class="text-sm font-bold text-slate-800">Smooth finishes</span>
+                        </div>
+                        <div class="flex items-center gap-3 bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center text-xs font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <span class="text-sm font-bold text-slate-800">Clean edges</span>
+                        </div>
+                        <div class="flex items-center gap-3 bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center text-xs font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <span class="text-sm font-bold text-slate-800">Proper preparation</span>
+                        </div>
+                    </div>
+
+                    <p class="text-slate-700 leading-relaxed text-base">
+                        A jobsite treated with respect. Whether you're finishing a new space, remodeling an existing room, or repairing damaged drywall, our goal is simple: deliver professional results you can be proud of.
+                    </p>
+
+                    <p class="text-slate-900 font-bold text-base pt-1">
+                        Above All Drywall is here to make your project easier from start to finish.
+                    </p>
+
+                    <div class="pt-2">
+                        <a href="#contact" class="inline-flex items-center gap-3 gold-gradient-bg text-white font-extrabold px-7 py-3.5 rounded-xl shadow-lg hover:shadow-amber-500/30 transition-all text-sm group">
+                            <span>TALK ABOUT YOUR PROJECT</span>
+                            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-20 md:py-28 bg-white border-t border-slate-200 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <div class="inline-flex items-center gap-2 text-amber-600 text-xs font-bold uppercase tracking-widest bg-amber-50 px-3.5 py-1 rounded-full border border-amber-200">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>OUR SERVICES</span>
+                </div>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 heading-font">
+                    Drywall Services <span class="gold-gradient-text">Done Right.</span>
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg font-medium">
+                    From small repairs to larger projects, we provide dependable drywall solutions tailored to your space.
+                </p>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Service 01 -->
+                <div class="bg-amber-50/40 p-8 rounded-3xl border-2 border-amber-200/80 hover:border-amber-400 transition-all card-shadow hover:shadow-xl group relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="text-3xl font-extrabold text-amber-600 heading-font">01</span>
+                            <div class="w-12 h-12 rounded-xl bg-amber-500 text-white flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-hammer"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3 heading-font group-hover:text-amber-600 transition-colors">Drywall Installation</h3>
+                        <p class="text-slate-700 leading-relaxed text-sm mb-6 font-medium">
+                            Professional drywall installation for new construction, additions, renovations, and interior projects.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="openModal('estimate', 'Drywall Installation')" class="inline-flex items-center gap-2 text-amber-700 hover:text-amber-900 text-sm font-extrabold transition-colors">
+                            <span>Learn More & Estimate</span>
+                            <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service 02 -->
+                <div class="bg-blue-50/40 p-8 rounded-3xl border-2 border-blue-200/80 hover:border-blue-400 transition-all card-shadow hover:shadow-xl group relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="text-3xl font-extrabold text-blue-600 heading-font">02</span>
+                            <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3 heading-font group-hover:text-blue-600 transition-colors">Drywall Repair</h3>
+                        <p class="text-slate-700 leading-relaxed text-sm mb-6 font-medium">
+                            Cracks, holes, dents, water damage, and everyday wear can leave your walls looking rough. We restore damaged areas with clean, professional repairs.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="openModal('estimate', 'Drywall Repair')" class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 text-sm font-extrabold transition-colors">
+                            <span>Request a Repair</span>
+                            <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service 03 -->
+                <div class="bg-emerald-50/40 p-8 rounded-3xl border-2 border-emerald-200/80 hover:border-emerald-400 transition-all card-shadow hover:shadow-xl group relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="text-3xl font-extrabold text-emerald-600 heading-font">03</span>
+                            <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-paint-roller"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3 heading-font group-hover:text-emerald-600 transition-colors">Drywall Finishing</h3>
+                        <p class="text-slate-700 leading-relaxed text-sm mb-6 font-medium">
+                            Smooth, properly finished walls create the foundation for a beautiful final result. We focus on seams, joints, corners, and surface preparation.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="openModal('estimate', 'Drywall Finishing')" class="inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-900 text-sm font-extrabold transition-colors">
+                            <span>Get an Estimate</span>
+                            <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service 04 -->
+                <div class="bg-amber-50/40 p-8 rounded-3xl border-2 border-amber-200/80 hover:border-amber-400 transition-all card-shadow hover:shadow-xl group relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="text-3xl font-extrabold text-amber-600 heading-font">04</span>
+                            <div class="w-12 h-12 rounded-xl bg-amber-500 text-white flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-house-chimney-crack"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3 heading-font group-hover:text-amber-600 transition-colors">Remodeling & Renovation</h3>
+                        <p class="text-slate-700 leading-relaxed text-sm mb-6 font-medium">
+                            Updating a room or transforming your interior? We provide drywall work that fits seamlessly into your renovation project.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="openModal('estimate', 'Remodeling & Renovation')" class="inline-flex items-center gap-2 text-amber-700 hover:text-amber-900 text-sm font-extrabold transition-colors">
+                            <span>Start Your Project</span>
+                            <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="why-us" class="py-20 md:py-28 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-amber-600 text-xs font-bold uppercase tracking-widest bg-amber-100 px-3 py-1 rounded-full border border-amber-200">
+                        <i class="fa-solid fa-award"></i>
+                        <span>THE ABOVE ALL DIFFERENCE</span>
+                    </div>
+
+                    <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 heading-font leading-tight">
+                        The Difference Is in the <span class="gold-gradient-text">Details.</span>
+                    </h2>
+
+                    <p class="text-slate-700 leading-relaxed text-base font-medium">
+                        Your walls are one of the first things people notice when they walk into a space. That's why we don't cut corners.
+                    </p>
+
+                    <div class="p-6 rounded-2xl bg-white border-2 border-amber-300 card-shadow-lg mt-6 relative">
+                        <p class="text-sm font-bold text-slate-800 italic mb-4">
+                            "We take pride in leaving every job site cleaner than we found it and every wall ready for paint."
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <img src="https://raw.githubusercontent.com/marzuqimtiaz09-commits/Above-All-Drywall-LLC/refs/heads/main/Above%20All%20Drywall%20LLC%20logo.jpg" class="w-10 h-10 rounded-full border-2 border-amber-500" alt="Justin Smith Logo">
+                            <div>
+                                <h4 class="text-sm font-extrabold text-slate-900">Justin Smith</h4>
+                                <p class="text-xs text-amber-700 font-bold">Above All Drywall Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    
+                    <!-- Reason 01 -->
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all">
+                        <div class="text-amber-600 font-extrabold text-2xl heading-font mb-2">01</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Clean, Professional Work</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            We respect your home, your property, and your project. We aim to leave every workspace clean and every finished surface looking its best.
+                        </p>
+                    </div>
+
+                    <!-- Reason 02 -->
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all">
+                        <div class="text-amber-600 font-extrabold text-2xl heading-font mb-2">02</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Attention to Detail</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            The little things matter. From straight seams to smooth finishes, we focus on the details that separate average drywall work from great drywall work.
+                        </p>
+                    </div>
+
+                    <!-- Reason 03 -->
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all">
+                        <div class="text-amber-600 font-extrabold text-2xl heading-font mb-2">03</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Straightforward Service</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            No unnecessary runaround. We communicate clearly about your project and work toward getting the job completed properly.
+                        </p>
+                    </div>
+
+                    <!-- Reason 04 -->
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all">
+                        <div class="text-amber-600 font-extrabold text-2xl heading-font mb-2">04</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Local & Dependable</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            We're proud to serve homeowners and businesses throughout the Wiregrass area.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICE AREA SECTION -->
+    <section class="py-16 bg-blue-900 text-white relative shadow-inner">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                
+                <div class="lg:col-span-6 space-y-4">
+                    <div class="inline-flex items-center gap-2 text-amber-400 text-xs font-extrabold uppercase tracking-widest">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <span>SERVICE COVERAGE</span>
+                    </div>
+                    <h2 class="text-3xl font-extrabold text-white heading-font">
+                        Proudly Serving the Wiregrass
+                    </h2>
+                    <p class="text-blue-100 text-sm leading-relaxed font-medium">
+                        Above All Drywall serves customers throughout:
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-2.5 pt-2">
+                        <span class="px-4 py-2 rounded-xl bg-amber-500 text-slate-950 text-sm font-extrabold shadow-md">
+                            <i class="fa-solid fa-location-pin mr-1.5"></i>Ozark, AL
+                        </span>
+                        <span class="px-3.5 py-2 rounded-xl bg-blue-800 text-white border border-blue-700 text-sm font-semibold">Dale County</span>
+                        <span class="px-3.5 py-2 rounded-xl bg-blue-800 text-white border border-blue-700 text-sm font-semibold">Barbour County</span>
+                        <span class="px-3.5 py-2 rounded-xl bg-blue-800 text-white border border-blue-700 text-sm font-semibold">Coffee County</span>
+                        <span class="px-3.5 py-2 rounded-xl bg-blue-800 text-white border border-blue-700 text-sm font-semibold">Henry County</span>
+                        <span class="px-3.5 py-2 rounded-xl bg-blue-800 text-white border border-blue-700 text-sm font-semibold">Houston County</span>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-2xl border border-white/20 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+                    <div class="space-y-1">
+                        <h4 class="text-lg font-bold text-white heading-font">Not sure if you're in our service area?</h4>
+                        <p class="text-xs text-blue-200">Give us a call and we'll check availability for your project.</p>
+                    </div>
+                    <a href="tel:3345454051" class="gold-gradient-bg text-white font-extrabold px-6 py-3.5 rounded-xl whitespace-nowrap text-sm shadow-md hover:scale-105 transition-transform flex items-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>CALL (334) 545-4051</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="reviews" class="py-20 md:py-28 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <div class="inline-flex items-center gap-2 text-amber-600 text-xs font-bold uppercase tracking-widest bg-amber-100 px-3 py-1 rounded-full border border-amber-200">
+                    <i class="fa-solid fa-star"></i>
+                    <span>CLIENT FEEDBACK</span>
+                </div>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 heading-font">
+                    Don't Just Take <span class="gold-gradient-text">Our Word for It.</span>
+                </h2>
+                <div class="flex items-center justify-center gap-2 text-amber-500 text-xl pt-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="text-slate-800 text-base font-bold ml-2">5.0 Rated by local Wiregrass customers</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Review 1 -->
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 card-shadow flex flex-col justify-between hover:border-amber-400 transition-all">
+                    <div>
+                        <div class="flex text-amber-500 text-sm mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 text-sm leading-relaxed italic font-medium mb-6">
+                            "Professional, dependable, and the finished work looks great. Highly recommend Above All Drywall."
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-200 flex items-center justify-between">
+                        <div>
+                            <h4 class="text-sm font-extrabold text-slate-900">Local Customer</h4>
+                            <p class="text-xs text-amber-700 font-bold">Dale County, AL</p>
+                        </div>
+                        <i class="fa-solid fa-quote-right text-amber-300 text-2xl"></i>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 card-shadow flex flex-col justify-between hover:border-amber-400 transition-all">
+                    <div>
+                        <div class="flex text-amber-500 text-sm mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 text-sm leading-relaxed italic font-medium mb-6">
+                            "Great communication and quality work from start to finish."
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-200 flex items-center justify-between">
+                        <div>
+                            <h4 class="text-sm font-extrabold text-slate-900">Local Customer</h4>
+                            <p class="text-xs text-amber-700 font-bold">Ozark, AL</p>
+                        </div>
+                        <i class="fa-solid fa-quote-right text-amber-300 text-2xl"></i>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 card-shadow flex flex-col justify-between hover:border-amber-400 transition-all">
+                    <div>
+                        <div class="flex text-amber-500 text-sm mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 text-sm leading-relaxed italic font-medium mb-6">
+                            "Very happy with the finished result. Would definitely recommend them."
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-200 flex items-center justify-between">
+                        <div>
+                            <h4 class="text-sm font-extrabold text-slate-900">Local Customer</h4>
+                            <p class="text-xs text-amber-700 font-bold">Coffee County, AL</p>
+                        </div>
+                        <i class="fa-solid fa-quote-right text-amber-300 text-2xl"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Review CTA -->
+            <div class="text-center mt-12">
+                <button onclick="openModal('estimate')" class="inline-flex items-center gap-2 text-amber-700 hover:text-amber-900 font-extrabold text-sm tracking-wide transition-colors">
+                    <span>SEE MORE REVIEWS & SHARE YOUR FEEDBACK</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section id="process" class="py-20 md:py-28 bg-slate-50 border-t border-slate-200 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <div class="inline-flex items-center gap-2 text-amber-600 text-xs font-bold uppercase tracking-widest bg-amber-100 px-3 py-1 rounded-full border border-amber-200">
+                    <i class="fa-solid fa-list-check"></i>
+                    <span>HOW WE WORK</span>
+                </div>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 heading-font">
+                    From First Call to <span class="gold-gradient-text">Finished Walls.</span>
+                </h2>
+                <p class="text-slate-600 text-base font-medium">
+                    Our simple 4-step process ensures a hassle-free experience for every drywall project.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+                
+                <!-- Step 01 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-white font-extrabold text-lg flex items-center justify-center heading-font mb-4 shadow-md">
+                            01
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2 heading-font">Tell Us About Your Project</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            Call or message us with the details of what you need done.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 02 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-white font-extrabold text-lg flex items-center justify-center heading-font mb-4 shadow-md">
+                            02
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2 heading-font">Get Your Estimate</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            We'll discuss the project and determine the right approach for your space.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 03 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-white font-extrabold text-lg flex items-center justify-center heading-font mb-4 shadow-md">
+                            03
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2 heading-font">We Get to Work</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            Our team handles the drywall work with attention to quality, detail, and cleanliness.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 04 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 card-shadow hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-white font-extrabold text-lg flex items-center justify-center heading-font mb-4 shadow-md">
+                            04
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2 heading-font">Enjoy the Finished Space</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
+                            You get a clean, professional result that's ready for the next stage of your project.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURED CTA -->
+    <section class="py-16 relative overflow-hidden bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative bg-gradient-to-r from-amber-500 via-amber-600 to-amber-700 p-10 md:p-16 rounded-3xl text-center overflow-hidden shadow-2xl text-white">
+                <!-- Background visual circles -->
+                <div class="absolute -top-24 -left-24 w-72 h-72 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+                <div class="absolute -bottom-24 -right-24 w-72 h-72 bg-black/10 rounded-full blur-2xl pointer-events-none"></div>
+
+                <div class="relative z-10 max-w-3xl mx-auto space-y-6">
+                    <h2 class="text-3xl sm:text-5xl font-extrabold heading-font leading-tight">
+                        Ready to Get Your Walls <br>
+                        <span class="text-amber-100">Looking Right?</span>
+                    </h2>
+                    <p class="text-amber-50 text-base sm:text-lg font-medium">
+                        Whether it's a repair, renovation, or brand-new project, Above All Drywall is ready to help. Let's talk about your project.
+                    </p>
+
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <button onclick="openModal('estimate')" class="w-full sm:w-auto bg-slate-900 text-white text-base font-extrabold px-9 py-4 rounded-xl shadow-xl hover:bg-slate-800 hover:scale-105 transition-all flex items-center justify-center gap-2">
+                            <span>GET MY FREE ESTIMATE</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <a href="tel:3345454051" class="w-full sm:w-auto bg-white/20 hover:bg-white/30 text-white text-base font-extrabold px-8 py-4 rounded-xl border border-white/40 transition-all flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>(334) 545-4051</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 md:py-28 bg-slate-50 relative border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Contact Info Column -->
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <div class="inline-flex items-center gap-2 text-amber-600 text-xs font-bold uppercase tracking-widest bg-amber-100 px-3 py-1 rounded-full border border-amber-200 mb-3">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>GET IN TOUCH</span>
+                        </div>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 heading-font mb-4">
+                            Let's Talk About <br>
+                            <span class="gold-gradient-text">Your Project.</span>
+                        </h2>
+                        <p class="text-slate-600 text-sm leading-relaxed font-medium">
+                            Have a drywall project coming up? Tell us what you need and we'll get the conversation started.
+                        </p>
+                    </div>
+
+                    <!-- Details Card Deck -->
+                    <div class="space-y-4">
+                        
+                        <!-- Phone -->
+                        <a href="tel:3345454051" class="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 card-shadow hover:border-amber-400 transition-all">
+                            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl font-bold shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500 font-bold uppercase">Phone Number</p>
+                                <p class="text-base font-extrabold text-slate-900 hover:text-amber-600 transition-colors">(334) 545-4051</p>
+                            </div>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:abovealldrywall8487@gmail.com" class="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 card-shadow hover:border-amber-400 transition-all">
+                            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl font-bold shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500 font-bold uppercase">Email Address</p>
+                                <p class="text-sm font-extrabold text-slate-900 hover:text-amber-600 transition-colors break-all">abovealldrywall8487@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <!-- Service Area -->
+                        <div class="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 card-shadow">
+                            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl font-bold shrink-0">
+                                <i class="fa-solid fa-map-location"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500 font-bold uppercase">Service Area</p>
+                                <p class="text-sm font-extrabold text-slate-900">Ozark, AL & surrounding Wiregrass communities</p>
+                            </div>
+                        </div>
+
+                        <!-- TikTok Link -->
+                        <a href="https://www.tiktok.com/@justinsmith504" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 card-shadow hover:border-amber-400 transition-all">
+                            <div class="w-12 h-12 rounded-xl bg-slate-900 text-white flex items-center justify-center text-xl font-bold shrink-0">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500 font-bold uppercase">Follow On TikTok</p>
+                                <p class="text-sm font-extrabold text-slate-900 hover:text-amber-600 transition-colors">@justinsmith504</p>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Contact Form Column -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white p-8 sm:p-10 rounded-3xl border-2 border-amber-200 card-shadow-lg relative">
+                        <h3 class="text-2xl font-bold text-slate-900 heading-font mb-1">Request an Estimate</h3>
+                        <p class="text-xs text-slate-500 font-medium mb-6">Fill out the details below and we will contact you promptly.</p>
+
+                        <form id="mainEstimateForm" onsubmit="handleMainFormSubmit(event)" class="space-y-5">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Your Name *</label>
+                                    <input type="text" id="formName" required placeholder="Your Name" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number *</label>
+                                    <input type="tel" id="formPhone" required placeholder="Your Phone Number" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Email Address *</label>
+                                    <input type="email" id="formEmail" required placeholder="Your Email" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Project Type *</label>
+                                    <select id="formService" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3.5 text-sm text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
+                                        <option value="" disabled selected>Select Service...</option>
+                                        <option value="Drywall Installation">Drywall Installation</option>
+                                        <option value="Drywall Repair">Drywall Repair</option>
+                                        <option value="Drywall Finishing">Drywall Finishing</option>
+                                        <option value="Remodeling & Renovation">Remodeling & Renovation</option>
+                                        <option value="Other / Multiple Services">Other / Multiple Services</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Tell Us About Your Project *</label>
+                                <textarea id="formDetails" rows="4" required placeholder="Project details, timeline, room dimensions, or damage specifics..." class="w-full bg-slate-50 border border-slate-300 rounded-xl p-4 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:bg-white transition-all"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full gold-gradient-bg text-white font-extrabold py-4 rounded-xl text-base tracking-wide shadow-xl hover:brightness-105 transition-all flex items-center justify-center gap-2">
+                                <span>REQUEST MY FREE ESTIMATE</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-16 bg-gradient-to-br from-amber-50 via-slate-100 to-amber-100/60 border-t border-slate-200 text-center">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 heading-font">
+                Your Project Deserves a Finish <br>
+                <span class="gold-gradient-text">That's Above All.</span>
+            </h2>
+            <p class="text-slate-600 text-base max-w-2xl mx-auto font-medium">
+                Professional drywall work. Local service. Quality you can see.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+                <a href="tel:3345454051" class="w-full sm:w-auto bg-white border-2 border-slate-300 text-slate-900 font-extrabold px-8 py-3.5 rounded-xl text-sm flex items-center justify-center gap-2 shadow-sm hover:bg-slate-50">
+                    <i class="fa-solid fa-phone text-amber-600"></i>
+                    <span>Call (334) 545-4051</span>
+                </a>
+                <button onclick="openModal('estimate')" class="w-full sm:w-auto gold-gradient-bg text-white font-extrabold px-8 py-3.5 rounded-xl text-sm shadow-md">
+                    GET A FREE ESTIMATE
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 border-t border-slate-800 pt-16 pb-24 md:pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
+                
+                <!-- Col 1: Brand -->
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="https://raw.githubusercontent.com/marzuqimtiaz09-commits/Above-All-Drywall-LLC/refs/heads/main/Above%20All%20Drywall%20LLC%20logo.jpg" alt="Logo" class="w-10 h-10 rounded-lg border-2 border-amber-400">
+                        <span class="text-lg font-bold text-white heading-font">ABOVE ALL <span class="text-amber-400">DRYWALL</span></span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+                        Professional drywall services serving Ozark and the Wiregrass area. Quality craftsmanship, clean finishes, and dependable service.
+                    </p>
+                    <div class="pt-2">
+                        <a href="https://www.tiktok.com/@justinsmith504" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 hover:text-white transition-colors bg-slate-800 px-3.5 py-2 rounded-xl border border-slate-700">
+                            <i class="fa-brands fa-tiktok text-sm"></i>
+                            <span>TikTok: @justinsmith504</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Navigation -->
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider heading-font">Quick Links</h4>
+                    <ul class="space-y-2 text-xs font-semibold">
+                        <li><a href="#home" class="hover:text-amber-400 transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-amber-400 transition-colors">About Us</a></li>
+                        <li><a href="#services" class="hover:text-amber-400 transition-colors">Services</a></li>
+                        <li><a href="#why-us" class="hover:text-amber-400 transition-colors">Why Choose Us</a></li>
+                        <li><a href="#reviews" class="hover:text-amber-400 transition-colors">Reviews</a></li>
+                        <li><a href="#contact" class="hover:text-amber-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Contact Details -->
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider heading-font">Contact & Coverage</h4>
+                    <ul class="space-y-2 text-xs font-semibold">
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-amber-400 w-4"></i>
+                            <a href="tel:3345454051" class="hover:text-white">(334) 545-4051</a>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-envelope text-amber-400 w-4"></i>
+                            <a href="mailto:abovealldrywall8487@gmail.com" class="hover:text-white">abovealldrywall8487@gmail.com</a>
+                        </li>
+                        <li class="flex items-start gap-2 pt-1">
+                            <i class="fa-solid fa-map-pin text-amber-400 w-4 mt-0.5"></i>
+                            <span>Barbour County • Dale County • Coffee County • Henry County • Houston County • Ozark, AL</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4 font-medium">
+                <p>© 2026 Above All Drywall. All Rights Reserved.</p>
+                <p>Designed with premium craftsmanship for Wiregrass homeowners & businesses.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBILE STICKY BOTTOM ACTION BAR -->
+    <div class="fixed bottom-0 left-0 w-full z-40 bg-white/95 border-t border-slate-200 backdrop-blur-md p-3 md:hidden flex items-center gap-3 shadow-lg">
+        <a href="tel:3345454051" class="flex-1 bg-slate-100 border border-slate-300 text-slate-900 font-extrabold py-3 px-2 rounded-xl text-xs text-center flex items-center justify-center gap-2 active:scale-95 transition-transform">
+            <i class="fa-solid fa-phone text-amber-600"></i>
+            <span>CALL NOW</span>
+        </a>
+        <button onclick="openModal('estimate')" class="flex-1 gold-gradient-bg text-white font-extrabold py-3 px-2 rounded-xl text-xs text-center shadow-md active:scale-95 transition-transform">
+            GET ESTIMATE
+        </button>
+    </div>
+
+    <!-- ESTIMATE / CONTACT MODAL -->
+    <div id="estimateModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm transition-opacity duration-300">
+        <div class="relative w-full max-w-xl bg-white border-2 border-amber-300 rounded-3xl p-6 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-800 p-2 text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="text-center mb-6">
+                <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-2xl mx-auto mb-2 font-bold">
+                    <i class="fa-solid fa-calculator"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 heading-font">Get Your Free Estimate</h3>
+                <p class="text-xs text-slate-500 font-medium">Tell us a bit about your drywall needs in Ozark & Wiregrass.</p>
+            </div>
+
+            <form id="modalForm" onsubmit="handleModalSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Full Name *</label>
+                    <input type="text" id="modalName" required placeholder="John Doe" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500">
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number *</label>
+                        <input type="tel" id="modalPhone" required placeholder="(334) 545-4051" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Email Address</label>
+                        <input type="email" id="modalEmail" placeholder="name@domain.com" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Service Required *</label>
+                    <select id="modalService" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-amber-500">
+                        <option value="" disabled selected>Select Service...</option>
+                        <option value="Drywall Installation">01 — Drywall Installation</option>
+                        <option value="Drywall Repair">02 — Drywall Repair</option>
+                        <option value="Drywall Finishing">03 — Drywall Finishing</option>
+                        <option value="Remodeling & Renovation">04 — Remodeling & Renovation</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Project Details / Message</label>
+                    <textarea id="modalMessage" rows="3" placeholder="Describe the room, damage size, or project goals..." class="w-full bg-slate-50 border border-slate-300 rounded-xl p-4 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-500"></textarea>
+                </div>
+
+                <button type="submit" class="w-full gold-gradient-bg text-white font-extrabold py-3.5 rounded-xl text-sm shadow-md hover:brightness-105 transition-all flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>SUBMIT ESTIMATE REQUEST</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SUCCESS NOTIFICATION TOAST -->
+    <div id="toast" class="fixed top-24 right-4 z-50 hidden max-w-sm bg-white border-2 border-emerald-500 p-4 rounded-2xl shadow-2xl flex items-start gap-3 transition-all transform">
+        <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div>
+            <h4 class="text-sm font-bold text-slate-900">Request Received!</h4>
+            <p class="text-xs text-slate-600 mt-0.5 font-medium">Thank you! Above All Drywall will review your request and get back to you shortly.</p>
+        </div>
+    </div>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuIcon = document.getElementById('menuIcon');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            } else {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            }
+        });
+
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            });
+        });
+
+        function openModal(type, serviceName = '') {
+            const modal = document.getElementById('estimateModal');
+            const modalService = document.getElementById('modalService');
+            
+            if (serviceName && modalService) {
+                for (let option of modalService.options) {
+                    if (option.value === serviceName) {
+                        option.selected = true;
+                        break;
+                    }
+                }
+            }
+
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('estimateModal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 5000);
+        }
+
+        function handleQuickSubmit(e) {
+            e.preventDefault();
+            e.target.reset();
+            showToast();
+        }
+
+        function handleMainFormSubmit(e) {
+            e.preventDefault();
+            e.target.reset();
+            showToast();
+        }
+
+        function handleModalSubmit(e) {
+            e.preventDefault();
+            closeModal();
+            e.target.reset();
+            showToast();
+        }
+
+        // Close modal on click outside
+        window.addEventListener('click', (e) => {
+            const modal = document.getElementById('estimateModal');
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
